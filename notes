@@ -1,0 +1,38 @@
+Introduction:
+Installation:
+Commands:
+
+python3 -m venv myenv_test_1
+
+source myenv_test_1/bin/activate
+
+pip freeze
+
+pip install --upgrade pip
+
+pip freeze
+
+
+
+Prob 1:
+TypeError: get_models() missing 1 required positional argument: 'self' django migrate
+
+Soln:
+/usr/local/bin/python3.6 -m venv  my_env_3
+
+reason: django and python missmatch
+
+To kill a process:
+
+lsof -i:8000
+
+
+Objects: properties, methods
+database : rows and columns
+difference between proj and apps
+Foreign key
+
+migration???
+
+
+(admin,admin12345)
